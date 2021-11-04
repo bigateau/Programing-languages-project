@@ -1,48 +1,105 @@
-object Hello extends App{
-	println("Hello World")
-}
+import java.util.concurrent.atomic.AtomicInteger
 
-object Task2A extends App{
+object ConcurrencyInScala extends App {
 
-	def Hi(): Unit = println("Hello World")
-	
-	def Func_to_Thread(func: () => Unit): Thread = {
-		val t = new Thread {
-			override def run() = func
-	 	}
-	 	return t
-	}
+  // We use the class AtomicInteger in order to assure thread safety
+  private var counter: AtomicInteger = new AtomicInteger(0);
+  
+  private lazy val A : Int = 0;
+  private lazy val B : Int = A + 1;
+  
+  def increaseCounter(): Unit = {
+      // The function getAndIncrement() makes the incrementation atomic,
+      // which means that no other operation can be placed in between operations
+      // of the addition, in other words, the program is kind of suspended while
+      // the addition is computed.
+      counter.getAndIncrement();
+  }
 
-	val th = Func_to_Thread(Hi)
-}
+  // Print the private and class-scope variable counter in the terminal
+  def printCounter() : Unit = {
+    println(counter);
+  }
 
-object Task2B extends App{
+  // This function return a Thread variable which contains the function fun,
+  // that has not been started yet
+  def initializedThread(fun : () => Unit) : Thread = {
+    val thread = new Thread(new RunnableFunction(fun));
+    thread;
+  }
 
-	private var counter: Int = 0
-	def increaseCounter(): Unit = {
-		counter += 1
-	}
-
-	def Func_to_Thread(func: () => Unit): Thread = {
-		val t = new Thread {
-			override def run() = func
-	 	}
-	 	return t
-	}
-	val thread1 = Func_to_Thread(increaseCounter)
-    thread1.start
-
-    /*val thread2 = new Thread {
-        override def run {
-            // your custom behavior here
-        }
+  // This function locks A and then locks B after a little sleepy time
+  def function_A_B() : Unit = {
+    A.synchronized {
+      println("Thread 1 locked A");
+      Thread.sleep(500);
+      println("Thread 1 wait to lock B");
+      B.synchronized {
+        println("Thread 1 has A and B locked");
+      }
     }
-    thread2.start*/
+  }
 
-    val thread3 = new Thread {
-        override def run {
-            println(counter)
-        }
+  // This function locks B and then locks A after a little sleepy time
+  def function_B_A() : Unit = {
+    B.synchronized {
+      println("Thread 2 locked B");
+      Thread.sleep(500);
+      println("Thread 2 wait to lock A");
+      A.synchronized {
+        println("Thread 2 has A and B locked");
+      }
     }
-    thread3.start
+  }
+
+  val incrementThread1 = initializedThread(increaseCounter);
+  val incrementThread2 = initializedThread(increaseCounter);
+  val printThread = initializedThread(printCounter);
+  println(incrementThread1.isAlive()); // Check that the Thread is in runnable state and not running state
+  incrementThread1.start;
+  incrementThread2.start;
+  printThread.start;
+
+  // Deadlock happens here
+  val thread_1 = initializedThread(function_A_B);
+  val thread_2 = initializedThread(function_B_A);
+  thread_1.start;
+  thread_2.start;
+  
 }
+
+class RunnableFunction(fun : () => Unit) extends Runnable {
+// The class RunnableFunction create an object that is Runnable
+// which we will pass to a Thread.
+  def run() : Unit = {
+    fun();
+  }
+}
+
+/*
+A deadlock happens when two separate threads wait for each other 
+to do an action that is necessary for the other to continue. 
+For example : 
+  thread 1 locks variable A
+  thread 1 is suspended
+  thread 2 locks variable B
+  thread 2 waits for thread 1 to unlock variable A
+  thread 2 is suspended
+  thread 1 waits for thread 2 to unlock variable B
+
+Here we can see the loop going over and over since neither thread 1
+nor thread 2 is going to give priority to the other to finish computation
+to unlock the deadlock. 
+
+To have a deadlock you need four conditions :
+  Mutual exclusion
+  Hold and Wait behaviour
+  No preemption (a process cannot take away resource from an other)
+  Circular wait
+
+Hence to prevent deadlock to happen you at least need one of the following conditions :
+  No mutual exclusion
+  No Hold and wait behaviour
+  Preemption (which leads to setting thread priority)
+  No circular wait
+*/
