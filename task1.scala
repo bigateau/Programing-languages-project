@@ -68,4 +68,5 @@ object Loop1D extends App{
 	println(fibo(5))
 	println(fibo(6))
 	println(fibo(7))
-}
+} //Using a BigInt is usefull they support all the operators that we can use with numeric types
+  //It is also usefull because The BigInt takes 8 byte, the int is only 4 byte
