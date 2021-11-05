@@ -77,6 +77,12 @@ class RunnableFunction(fun : () => Unit) extends Runnable {
 }
 
 /*
+This kind kind of phenomenon can be called reader-writer problems, it can be really problematic
+with bank account for example, if two transactions are ordered at the same time,
+you want the right amount of money withdrawn or added to the account, with reader-writer problems
+not handled, an operation could be over read by another, which is very problematic.
+
+
 A deadlock happens when two separate threads wait for each other 
 to do an action that is necessary for the other to continue. 
 For example : 
