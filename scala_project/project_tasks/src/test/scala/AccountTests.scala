@@ -74,14 +74,13 @@ class AccountTests extends FunSuite {
 
 class AccountTransferTests extends FunSuite {
 
-
   test("Test 07: Valid transfer between accounts") {
     val bank = new Bank()
 
     val acc1 = bank.addAccount(100)
     val acc2 = bank.addAccount(200)
 
-    acc1 transferTo(acc2, 50)
+    acc1.transferTo(acc2, 50)
 
     while (bank.getProcessedTransactionsAsList.size != 1) {
       Thread.sleep(100)
@@ -97,7 +96,7 @@ class AccountTransferTests extends FunSuite {
     val acc1 = bank.addAccount(500)
     val acc2 = bank.addAccount(1000)
 
-    acc1 transferTo(acc2, -100)
+    acc1.transferTo(acc2, -100)
 
     while (bank.getProcessedTransactionsAsList.size != 1) {
       Thread.sleep(100)

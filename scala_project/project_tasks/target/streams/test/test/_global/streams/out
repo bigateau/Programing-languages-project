@@ -1,5 +1,5 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccountTransferTests, org.scalatest.tools.Framework$$anon$1@67506650, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccountTests, org.scalatest.tools.Framework$$anon$1@67506650, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccountTransferTests, org.scalatest.tools.Framework$$anon$1@41bf7ca8, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccountTests, org.scalatest.tools.Framework$$anon$1@41bf7ca8, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAccountTests:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 01: Valid account withdrawal[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 02: Invalid account withdrawal should throw exception[0m[0m
@@ -9,68 +9,21 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 06: Correct balance amount after several withdrawals and deposits[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAccountTransferTests:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 07: Valid transfer between accounts[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- Test 08: Transfer of negative amount between accounts should fail *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.sleep(Native Method)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$16(AccountTests.scala:103)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- Test 09: Invalid transfer between accounts due to insufficient funds should lead to transaction status FAILED and no money should be transferred between accounts *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.sleep(Native Method)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$17(AccountTests.scala:119)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- Test 10: Correct balance amounts after several transfers *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.sleep(Native Method)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$18(AccountTests.scala:147)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 08: Transfer of negative amount between accounts should fail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 09: Invalid transfer between accounts due to insufficient funds should lead to transaction status FAILED and no money should be transferred between accounts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 10: Correct balance amounts after several transfers[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- Test 11: Failed transactions should retry and potentially succeed with multiple allowed attempts *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.sleep(Native Method)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$24(AccountTests.scala:167)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$23(AccountTests.scala:156)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  100 was not less than or equal to 5 (AccountTests.scala:173)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- Test 12: Some transactions should be stopped with only one allowed attempt *** FAILED ***[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.sleep(Native Method)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$28(AccountTests.scala:191)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Bank.processTransactions(Bank.scala:26)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Bank.addTransactionToQueue(Bank.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Account.transferTo(Account.scala:39)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$29(AccountTests.scala:186)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$27(AccountTests.scala:180)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$28(AccountTests.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$27(AccountTests.scala:179)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m

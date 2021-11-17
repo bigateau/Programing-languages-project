@@ -50,27 +50,48 @@ class Transaction(val transactionsQueue: TransactionsQueue,
                   val from: Account,
                   val to: Account,
                   val amount: Double,
-                  val allowedAttemps: Int) extends Runnable {
+                  val allowedAttempts: Int) extends Runnable {
 
   var status: TransactionStatus.Value = TransactionStatus.PENDING
   var attempt = 0
 
   override def run: Unit = {
 
-      def doTransaction() = {
-          from.withdraw(amount);
-          to.deposit(amount);
-          status = TransactionStatus.SUCCESS;
+    def doTransaction() = {
+      var withdraw_success : Boolean = false;
+      var deposit_success : Boolean = false;
+      from.withdraw(amount) match {
+        case Left(success) => withdraw_success = true;
+        case Right(error) => {
+          withdraw_success = false;
+        }
       }
-
-      // TODO - project task 3
-      // make the code below thread safe
-      if (status == TransactionStatus.PENDING) {
-          doTransaction
-          Thread.sleep(50) // you might want this to make more room for
-                           // new transactions to be added to the queue
+      if (withdraw_success == true) {
+        to.deposit(amount) match {
+          case Left(success) => deposit_success = true;
+          case Right(error) => {
+            withdraw_success = false;
+          }
+        }
       }
-
-
+      if (withdraw_success && deposit_success) {
+        status = TransactionStatus.SUCCESS;
+      } /*else {
+        status = TransactionStatus.FAILED;
+      }*/
     }
+
+    // TODO - project task 3
+    // make the code below thread safe
+    while (!(status == TransactionStatus.SUCCESS) && attempt < allowedAttempts) {
+      doTransaction
+      attempt = attempt + 1
+      Thread.sleep(50) // you might want this to make more room for
+                        // new transactions to be added to the queue
+    }
+    if (attempt == allowedAttempts) {
+      status = TransactionStatus.FAILED;
+    }
+
+  }
 }

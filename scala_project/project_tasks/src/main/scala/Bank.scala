@@ -18,14 +18,17 @@ class Bank(val allowedAttempts: Integer = 3) {
                                                 
 
     private def processTransactions: Unit = {
-      var transactionIter : Iterator[Transaction] = transactionsQueue.iterator;
-      for (t <- transactionIter) {
-        var transactionPending : Transaction = transactionsQueue.pop;
-        if (t.status == TransactionStatus.PENDING) {
-          transactionsQueue.push(transactionPending);
-          processedTransactions;
-        } else {
-          processedTransactions.push(transactionPending);
+      transactionsQueue.synchronized {
+        var transactionIter : Iterator[Transaction] = transactionsQueue.iterator;
+        while (!transactionsQueue.isEmpty) {
+          var transactionPending : Transaction = transactionsQueue.pop;
+          if (transactionPending.status == TransactionStatus.PENDING) {
+            Thread.sleep(20);
+            transactionsQueue.push(transactionPending);
+            processTransactions;
+          } else {
+            processedTransactions.push(transactionPending);
+          }
         }
       }
     }
