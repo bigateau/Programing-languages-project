@@ -1,0 +1,213 @@
+[0m2021.11.09 15:07:23 INFO  Started: Metals version 0.10.9 in workspace '/home/robinlamy/Documents/norvege/programming_language/scala_project' for client Visual Studio Code 1.62.0.[0m
+[0m2021.11.09 15:07:24 INFO  time: initialize in 1.28s[0m
+[0m2021.11.09 15:07:24 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.09 15:07:24 WARN  no build tool detected in workspace '/home/robinlamy/Documents/norvege/programming_language/scala_project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.09 15:07:24 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/build.sbt[0m
+[0m2021.11.09 15:07:27 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.09 15:07:29 INFO  time: code lens generation in 3.77s[0m
+[0m2021.11.09 15:07:29 INFO  time: code lens generation in 3.77s[0m
+[0m2021.11.09 15:13:44 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:15:39 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:16:58 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:17:36 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:18:39 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:18:44 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:18:58 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:19:10 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:19:47 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:20:27 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:20:36 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:20:57 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:23:21 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:25:21 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:27:00 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:27:45 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:28:54 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:37:54 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:38:19 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:39:07 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:39:28 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:42:50 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:44:36 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:48:57 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:49:00 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:49:13 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:49:55 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:54:28 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 15:54:32 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:01:02 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:01:07 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:01:15 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:02:33 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:02:58 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:03:18 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:03:21 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:04:58 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:05:08 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:05:28 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:06:40 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:06:51 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:09:25 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:10:55 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:11:46 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:11:48 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:12:18 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:12:40 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:12:59 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:13:10 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:13:22 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:13:39 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:14:06 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:14:19 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:14:19 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+Nov 09, 2021 4:15:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3858
+[0m2021.11.09 16:15:19 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+Nov 09, 2021 4:15:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3926
+Nov 09, 2021 4:15:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3934
+Nov 09, 2021 4:15:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3941
+Nov 09, 2021 4:15:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3949
+Nov 09, 2021 4:15:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3959
+[0m2021.11.09 16:16:45 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:16:57 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:17:13 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:17:13 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:17:25 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:17:36 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:17:48 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:18:01 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+[0m2021.11.09 16:18:08 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 16:18:09 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+Nov 09, 2021 4:18:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4200
+Nov 09, 2021 4:18:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4210
+Nov 09, 2021 4:18:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4217
+[0m2021.11.09 16:20:18 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:22:31 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:22:59 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:23:34 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:25:57 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:28:18 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:28:34 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:30:39 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:32:59 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:33:09 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:33:26 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Account.scala[0m
+[0m2021.11.09 16:34:49 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+Nov 09, 2021 4:38:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5529
+Nov 09, 2021 4:38:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5544
+Nov 09, 2021 4:38:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5552
+Nov 09, 2021 4:39:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5559
+Nov 09, 2021 4:41:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5798
+Nov 09, 2021 4:41:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5805
+Nov 09, 2021 4:42:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5845
+Nov 09, 2021 4:43:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5857
+[0m2021.11.09 16:44:40 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+Nov 09, 2021 4:45:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6000
+Nov 09, 2021 4:45:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6009
+[0m2021.11.09 16:46:08 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+Nov 09, 2021 4:48:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6376
+Nov 09, 2021 4:49:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6395
+[0m2021.11.09 16:50:01 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+Nov 09, 2021 4:50:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6569
+[0m2021.11.09 16:51:13 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+Nov 09, 2021 4:51:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6587
+Nov 09, 2021 4:52:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6676
+Nov 09, 2021 4:52:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6694
+Nov 09, 2021 4:53:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6857
+Nov 09, 2021 4:53:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6864
+Nov 09, 2021 4:53:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6938
+Nov 09, 2021 4:53:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6945
+Nov 09, 2021 4:53:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6952
+Nov 09, 2021 4:53:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6959
+Nov 09, 2021 4:53:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6966
+[0m2021.11.09 16:57:22 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+Nov 09, 2021 5:00:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7060
+Nov 09, 2021 5:00:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7084
+[0m2021.11.09 17:04:10 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+[0m2021.11.09 17:04:50 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+Nov 09, 2021 5:04:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7404
+Nov 09, 2021 5:05:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7424
+Nov 09, 2021 5:09:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7481
+Nov 09, 2021 5:10:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7507
+[0m2021.11.09 17:12:03 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+[0m2021.11.09 17:12:29 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+[0m2021.11.09 17:12:45 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+Nov 09, 2021 5:12:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7937
+Nov 09, 2021 5:14:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7959
+[0m2021.11.09 17:14:12 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+Nov 09, 2021 5:14:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7975
+Nov 09, 2021 5:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7997
+Nov 09, 2021 5:15:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8004
+Nov 09, 2021 5:16:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8124
+Nov 09, 2021 5:16:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8136
+[0m2021.11.09 17:17:20 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 17:18:52 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+Nov 09, 2021 5:19:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8343
+[0m2021.11.09 17:19:15 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+Nov 09, 2021 5:19:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8393
+[0m2021.11.09 17:20:01 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+Nov 09, 2021 5:20:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8437
+[0m2021.11.09 17:20:25 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+[0m2021.11.09 17:20:33 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+[0m2021.11.09 17:21:08 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+[0m2021.11.09 17:21:32 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala[0m
+Nov 09, 2021 5:22:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8573
+[0m2021.11.09 17:22:27 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 17:23:27 INFO  shutting down Metals[0m
+[0m2021.11.09 17:23:39 INFO  Started: Metals version 0.10.9 in workspace '/home/robinlamy/Documents/norvege/programming_language/scala_project' for client Visual Studio Code 1.62.0.[0m
+[0m2021.11.09 17:23:41 INFO  time: initialize in 1.28s[0m
+[0m2021.11.09 17:23:41 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.09 17:23:41 WARN  no build tool detected in workspace '/home/robinlamy/Documents/norvege/programming_language/scala_project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.09 17:23:41 WARN  no build target for: /home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Transaction.scala[0m
+[0m2021.11.09 17:23:43 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.09 17:23:45 INFO  time: code lens generation in 4.19s[0m
+[0m2021.11.09 17:23:45 INFO  time: code lens generation in 4.2s[0m
+[0m2021.11.09 17:26:53 INFO  shutting down Metals[0m

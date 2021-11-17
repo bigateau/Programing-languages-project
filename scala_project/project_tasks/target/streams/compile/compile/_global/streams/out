@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala:15:9: value start is not a member of Transaction[0m
+[0m[[0m[31merror[0m] [0m[0m      t.start;[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala:16:26: Unit does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m      processTransactions();[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/robinlamy/Documents/norvege/programming_language/scala_project/project_tasks/src/main/scala/Bank.scala:22:11: only traits and abstract classes can have declared but undefined members[0m
+[0m[[0m[31merror[0m] [0m[0m      var transactionPending : Transaction;[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
